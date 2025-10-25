@@ -7,6 +7,9 @@
     <Filter Include="window">
       <UniqueIdentifier>{b6147381-59c0-4a98-a4b7-4d31016ac9bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="window\dx12">
+      <UniqueIdentifier>{3e1e9810-89b1-44a1-9bc3-6c9b06a9f5cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="entry\entry.cpp">
@@ -15,10 +18,16 @@
     <ClCompile Include="window\window.cpp">
       <Filter>window</Filter>
     </ClCompile>
+    <ClCompile Include="DXGI.cpp">
+      <Filter>window\dx12</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window\window.h">
       <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGI.h">
+      <Filter>window\dx12</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
